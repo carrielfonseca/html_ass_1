@@ -1,0 +1,119 @@
+﻿@charset "utf-8";
+/* CSS document for the Table Page */
+/* Developed by: Fabio Carriel Fonseca
+/* date: February 8, 2013 */
+
+
+
+*
+{
+   margin:0;
+   padding:0;
+}
+
+body
+{
+font-family: Arial;
+font-size:12px;
+background-color: #D3D3D3; /* light gray color */
+
+}
+
+#container
+{
+   width:930px;
+   margin: 0 auto; 
+   border: 1.5px solid #000000;
+   padding: 5px;
+   background-color:#ffffff;
+}
+
+#header
+{
+    font-size:30px;
+    color:white;
+    text-align: center;
+    width: 920px;
+    margin: 0 0 50px 0px;
+    padding:5px;
+    background-image: url('blacktexture.jpg'); 
+    height:50px;    
+    vertical-align: bottom;
+}    
+
+#nav
+{
+    width: 920px;
+    margin: 0 0 0px 0px;
+    padding:5px;
+    background-color: #c0c0c0; 
+    height:25px;
+    text-align:center;
+}    
+
+
+#aside
+{
+    width: 283px;
+    margin: 0 0px 0px 0px;
+    border-right: 2px solid blue;
+    padding: 10px;
+    background-color: #F0F0F0; 
+    height:550px;
+    float:left;
+    word-wrap:break-word;
+    text-align:left;
+    text-indent:15px;
+    
+}    
+       
+#main
+{
+    width: 300px;
+    margin: 0 0 0px 0;
+    padding: 10px;
+    background-color: #F0F0F0; 
+    height:550px;
+    float:left;
+    text-align:justify;
+    text-indent:15px;    
+}         
+
+
+#right
+{
+    width: 283px;
+    margin: 0 0px 0px 0px;
+    border-left: 2px solid blue;
+    padding: 10px;
+    background-color: #F0F0F0;
+    height:550px;
+    float: right;
+    text-align:justify;
+    text-indent:15px;
+
+    
+}    
+
+#footer
+{
+    width: 910px;
+    padding: 10px;
+    background-color: #c0c0c0; 
+    height:50px;
+    text-align:center;
+    clear: both;
+}    
+
+.menu {
+    background-color: black;
+    color: white;
+    text-align:center;
+    text-decoration:underline;
+    font-size:13px;
+    margin: 5px;
+    padding: 2px;
+}  
+      
+       
+          
